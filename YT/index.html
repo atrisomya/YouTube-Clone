@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/241a1cab24.js" crossorigin="anonymous"></script>
+    <title>YouTube</title>
+    <link rel="shortcut icon" href="https://www.youtube.com/s/desktop/41dc17d1/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="navbar.css">
+    <style>
+        body{
+            background-color: rgb(32,32,32);
+            color: white;
+        }
+        #videos {
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 20px;
+            margin-top: 25px;
+        }
+        #videos img {
+            width: 100%;
+        }
+        
+        #sorting {
+            margin-top: 20px;
+            margin-left: 10px;
+        }
+        #sorting > button {
+            background-color: rgb(255,0,0);
+            padding: 10px 15px;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        #sorting > button:hover {
+            background-color: rgb(229, 135, 135);
+        }
+    </style>
+</head>
+<body>
+    <div id="navbar">
+        
+    </div>
+    <!--<div id="navbar">
+        <div id="text">
+            <div><span><i class="fa-solid fa-bars"></i></span></div>
+            <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="Error">
+            <p>YouTube</p>
+        </div>
+        <div id="search">
+            <input type="text" id="search_term" placeholder="Search">
+            <button onclick="searchVideos()"> <span><i class="fa-solid fa-magnifying-glass"></i></span> </button>
+            <span> <i class="fa-solid fa-microphone"></i> </span>
+        </div>
+        <div id="end">
+            <div>
+                <span> <i class="fa-solid fa-video"></i> </span>
+            </div>
+            <div><span> <i class="fa-regular fa-bell"></i> </span></div>
+            <button>Login</button>
+        </div>
+    </div>-->
+    <div id="sorting">
+        <button id="sortView">Sort by views</button>
+        <button id="sortAlpha">Sort Alphabetically</button>
+        <button id="sortRating">Sort By Rating</button>
+    </div>
+    <div id="videos">
+
+    </div>
+</body>
+</html>
+<script type="module" src="index.js"></script>
