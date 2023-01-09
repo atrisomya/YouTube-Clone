@@ -8,5 +8,5 @@ This app has:
   <li> Search functionality</li>
   <li> Sort functionality</li>
 </ul>
-<img src="https://lh3.googleusercontent.com/KkxnDavqCJCbjBv_EdTdGOxSHgZRsOBanTcGqK00kZmFFTQp_1qWlQpLfmyCOQURFns=w2400">
+<img src="https://lh6.googleusercontent.com/0PhRAEgGx6MB8lKc4vQKGzwdTO2SPES7KdH1hQX_2ET4BUMChBWx23W20JhJtgQrDnk=w2400">
   
