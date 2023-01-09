@@ -1,7 +1,7 @@
-# The clone of YouTube
+# YouTube - Clone
 
-This is a clone of Youtube which is a free video sharing website using basic HTML, CSS and JavaScript. It uses the data fetched by YouTube API. 
-This app has:
+This is a clone of Youtube which is a free video sharing website built by using basic HTML, CSS and JavaScript. It uses the data fetched by YouTube API. 
+This website has:
 <ul>
   <li> Sign-in/Sign-up feature</li>
   <li> Play videos fetched from YouTube API</li>
